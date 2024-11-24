@@ -7,10 +7,6 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF}" --replace-needed "android.hardware.light-V1-ndk_platform.so" "android.hardware.light-V1-ndk.so" "${2}"
-            ;;
         vendor/lib64/libarcsoft_hdr_adapter.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "liblog.so" "${2}"

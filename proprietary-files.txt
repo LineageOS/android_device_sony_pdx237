@@ -1,4 +1,8 @@
-# Stock package version: XQ-DQ72_Customized_SEA_67.1.A.2.278
+# Stock package version: XQ-DE72_Customized_SEA_67.1.A.2.278
+
+# ACDBs
+vendor/etc/acdbdata/kalama_qrd/Sony_acdb_cal.acdb
+vendor/etc/acdbdata/kalama_qrd/Sony_workspaceFileXml.qwsp
 
 # Audio FX Modules
 vendor/etc/zoom_noise_reduction/znr_Front_44k.tbl
@@ -9,10 +13,6 @@ vendor/etc/zoom_noise_reduction/znr_Logical_44k.tbl
 vendor/etc/zoom_noise_reduction/znr_Logical_48k.tbl
 vendor/etc/zoom_noise_reduction/znr_Logical_mono_44k.tbl
 vendor/etc/zoom_noise_reduction/znr_Logical_mono_48k.tbl
-vendor/etc/zoom_noise_reduction/znr_P_Tele_44k.tbl
-vendor/etc/zoom_noise_reduction/znr_P_Tele_48k.tbl
-vendor/etc/zoom_noise_reduction/znr_P_Tele_mono_44k.tbl
-vendor/etc/zoom_noise_reduction/znr_P_Tele_mono_48k.tbl
 vendor/etc/zoom_noise_reduction/znr_P_UWide_44k.tbl
 vendor/etc/zoom_noise_reduction/znr_P_UWide_48k.tbl
 vendor/etc/zoom_noise_reduction/znr_P_UWide_mono_44k.tbl
@@ -27,45 +27,7 @@ vendor/etc/zoom_noise_reduction/znr_parameter.xml
 vendor/etc/zoom_noise_reduction/znr_parameter_back.xml
 
 # Camera
-# Camera
 vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
-vendor/camera/CAMINO_FW_DATA_AF_0x0104.dat
-vendor/camera/CAMINO_FW_DATA_OIS_0x0106.dat
-vendor/camera/CAMINO_FW_DATA_OIS_KAI_0x0102.dat
-vendor/camera/CAMINO_FW_DATA_OIS_KAI_0x0104.dat
-vendor/camera/LGI12BC0/color_ctrl.dat
-vendor/camera/LGI12BC0/dataflow.dat
-vendor/camera/LGI12BC0/draw_comp_histogram.dat
-vendor/camera/LGI12BC0/draw_comp_pocky.dat
-vendor/camera/LGI12BC0/dual_bokeh_comp.dat
-vendor/camera/LGI12BC0/exposure_ctrl.dat
-vendor/camera/LGI12BC0/exposure_ctrl_diagram.dat
-vendor/camera/LGI12BC0/eye_stabilizer.dat
-vendor/camera/LGI12BC0/face_detector.dat
-vendor/camera/LGI12BC0/face_detector_soda.dat
-vendor/camera/LGI12BC0/flicker_detector.dat
-vendor/camera/LGI12BC0/food_comp_yummy.dat
-vendor/camera/LGI12BC0/hal_ctrl.dat
-vendor/camera/LGI12BC0/hal_ctrl_ife_lsc41.dat
-vendor/camera/LGI12BC0/hdr_comp.dat
-vendor/camera/LGI12BC0/idt_ctrl.dat
-vendor/camera/LGI12BC0/image_conv.dat
-vendor/camera/LGI12BC0/image_conv_cheesescone.dat
-vendor/camera/LGI12BC0/image_conv_marble.dat
-vendor/camera/LGI12BC0/image_conv_raisin.dat
-vendor/camera/LGI12BC0/image_conv_zunda.dat
-vendor/camera/LGI12BC0/lens_ctrl.dat
-vendor/camera/LGI12BC0/lens_ctrl_common.dat
-vendor/camera/LGI12BC0/motion_detector.dat
-vendor/camera/LGI12BC0/motion_detector_sumomo.dat
-vendor/camera/LGI12BC0/motion_estimation.dat
-vendor/camera/LGI12BC0/object_detector.dat
-vendor/camera/LGI12BC0/object_tracker.dat
-vendor/camera/LGI12BC0/prc_image_conv.dat
-vendor/camera/LGI12BC0/raw_conv_parisbrest.dat
-vendor/camera/LGI12BC0/raw_proc_platform.dat
-vendor/camera/LGI12BC0/recognize_map_comp.dat
-vendor/camera/LGI12BC0/scene_detector.dat
 vendor/camera/MAUNAKEA_FW_DATA_1_0x16903000.dat
 vendor/camera/MAUNAKEA_FW_DATA_1_0x16903040.dat
 vendor/camera/MAUNAKEA_FW_DATA_2_0x16903000.dat
@@ -146,39 +108,39 @@ vendor/camera/SEM52BC0/raw_proc_platform.dat
 vendor/camera/SEM52BC0/recognize_map_comp.dat
 vendor/camera/SEM52BC0/scene_detector.dat
 vendor/camera/SODA_HMN_BN0010-0001
-vendor/camera/SUN12BS0/color_ctrl.dat
-vendor/camera/SUN12BS0/dataflow.dat
-vendor/camera/SUN12BS0/draw_comp_histogram.dat
-vendor/camera/SUN12BS0/draw_comp_pocky.dat
-vendor/camera/SUN12BS0/dual_bokeh_comp.dat
-vendor/camera/SUN12BS0/exposure_ctrl.dat
-vendor/camera/SUN12BS0/exposure_ctrl_diagram.dat
-vendor/camera/SUN12BS0/eye_stabilizer.dat
-vendor/camera/SUN12BS0/face_detector.dat
-vendor/camera/SUN12BS0/face_detector_soda.dat
-vendor/camera/SUN12BS0/flicker_detector.dat
-vendor/camera/SUN12BS0/food_comp_yummy.dat
-vendor/camera/SUN12BS0/hal_ctrl.dat
-vendor/camera/SUN12BS0/hal_ctrl_ife_lsc41.dat
-vendor/camera/SUN12BS0/hdr_comp.dat
-vendor/camera/SUN12BS0/idt_ctrl.dat
-vendor/camera/SUN12BS0/image_conv.dat
-vendor/camera/SUN12BS0/image_conv_cheesescone.dat
-vendor/camera/SUN12BS0/image_conv_marble.dat
-vendor/camera/SUN12BS0/image_conv_raisin.dat
-vendor/camera/SUN12BS0/image_conv_zunda.dat
-vendor/camera/SUN12BS0/lens_ctrl.dat
-vendor/camera/SUN12BS0/lens_ctrl_common.dat
-vendor/camera/SUN12BS0/motion_detector.dat
-vendor/camera/SUN12BS0/motion_detector_sumomo.dat
-vendor/camera/SUN12BS0/motion_estimation.dat
-vendor/camera/SUN12BS0/object_detector.dat
-vendor/camera/SUN12BS0/object_tracker.dat
-vendor/camera/SUN12BS0/prc_image_conv.dat
-vendor/camera/SUN12BS0/raw_conv_parisbrest.dat
-vendor/camera/SUN12BS0/raw_proc_platform.dat
-vendor/camera/SUN12BS0/recognize_map_comp.dat
-vendor/camera/SUN12BS0/scene_detector.dat
+vendor/camera/SUN12BS1/color_ctrl.dat
+vendor/camera/SUN12BS1/dataflow.dat
+vendor/camera/SUN12BS1/draw_comp_histogram.dat
+vendor/camera/SUN12BS1/draw_comp_pocky.dat
+vendor/camera/SUN12BS1/dual_bokeh_comp.dat
+vendor/camera/SUN12BS1/exposure_ctrl.dat
+vendor/camera/SUN12BS1/exposure_ctrl_diagram.dat
+vendor/camera/SUN12BS1/eye_stabilizer.dat
+vendor/camera/SUN12BS1/face_detector.dat
+vendor/camera/SUN12BS1/face_detector_soda.dat
+vendor/camera/SUN12BS1/flicker_detector.dat
+vendor/camera/SUN12BS1/food_comp_yummy.dat
+vendor/camera/SUN12BS1/hal_ctrl.dat
+vendor/camera/SUN12BS1/hal_ctrl_ife_lsc41.dat
+vendor/camera/SUN12BS1/hdr_comp.dat
+vendor/camera/SUN12BS1/idt_ctrl.dat
+vendor/camera/SUN12BS1/image_conv.dat
+vendor/camera/SUN12BS1/image_conv_cheesescone.dat
+vendor/camera/SUN12BS1/image_conv_marble.dat
+vendor/camera/SUN12BS1/image_conv_raisin.dat
+vendor/camera/SUN12BS1/image_conv_zunda.dat
+vendor/camera/SUN12BS1/lens_ctrl.dat
+vendor/camera/SUN12BS1/lens_ctrl_common.dat
+vendor/camera/SUN12BS1/motion_detector.dat
+vendor/camera/SUN12BS1/motion_detector_sumomo.dat
+vendor/camera/SUN12BS1/motion_estimation.dat
+vendor/camera/SUN12BS1/object_detector.dat
+vendor/camera/SUN12BS1/object_tracker.dat
+vendor/camera/SUN12BS1/prc_image_conv.dat
+vendor/camera/SUN12BS1/raw_conv_parisbrest.dat
+vendor/camera/SUN12BS1/raw_proc_platform.dat
+vendor/camera/SUN12BS1/recognize_map_comp.dat
+vendor/camera/SUN12BS1/scene_detector.dat
 vendor/camera/default.dat
 vendor/camera/display_ctrl.dat
 vendor/camera/file_animal_eye_detector.dat
@@ -212,7 +174,6 @@ vendor/camera/file_zunda_21.dat
 vendor/camera/file_zunda_22.dat
 vendor/camera/file_zunda_23.dat
 vendor/camera/flash.dat
-vendor/camera/ois_correction_coefficient_imx650.dat
 vendor/camera/ois_correction_coefficient_imx888.dat
 vendor/camera/optical_axis.dat
 vendor/camera/snapshot.dat
@@ -270,11 +231,9 @@ vendor/lib64/camera/com.qti.sensor.s5k5e9yx04.so
 vendor/lib64/camera/com.qti.sensor.s5khp1s.so
 vendor/lib64/camera/com.qti.sensor.s5kjd1sp.so
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.sony.sensormodule.camino_imx650.bin
-vendor/lib64/camera/com.sony.sensormodule.crocus_imx663.bin
+vendor/lib64/camera/com.sony.sensormodule.crocus_kai_imx663.bin
 vendor/lib64/camera/com.sony.sensormodule.maunakea_imx563.bin
 vendor/lib64/camera/com.sony.sensormodule.maunakea_imx888.bin
-vendor/lib64/camera/com.sony.tuned.camino_imx650.bin
 vendor/lib64/camera/com.sony.tuned.crocus_imx663.bin
 vendor/lib64/camera/com.sony.tuned.maunakea_imx563.bin
 vendor/lib64/camera/com.sony.tuned.maunakea_imx888.bin
@@ -383,6 +342,8 @@ vendor/lib64/camera/libexcal_single_bokeh_comp_plugin.so
 vendor/lib64/camera/libexcal_snapshot_ctrl_plugin.so
 vendor/lib64/camera/libexcal_splitter_plugin.so
 vendor/lib64/camera/libexcal_stream_ctrl_plugin.so
+
+
 vendor/lib64/camx.device-impl.so
 vendor/lib64/camx.provider-impl.so
 vendor/lib64/com.qti.camx.chiiqutils.so
@@ -436,7 +397,6 @@ vendor/lib64/libarcsoft_low_light_hdr.so
 vendor/lib64/libarcsoft_qnnhtp.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbitmlenginev2.so
-vendor/lib64/libc++_shared.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcammw.so
 vendor/lib64/libcammw_util.so
@@ -556,9 +516,7 @@ vendor/lib64/libvideoml.so
 vendor/lib64/local_libcamera_metadata.so
 vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so
 vendor/lib64/vendor.somc.camera.device-impl.so
-vendor/lib64/vendor.somc.hardware.videoeffect-V1-impl.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b00
@@ -587,11 +545,53 @@ vendor/firmware/CAMERA_ICP.mbn
 vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 
+# Display (SDM)
+vendor/etc/displayconfig/display_id_131.xml
+
 # Display (HDR)
 vendor/etc/libhdr_somc.xml
 
 # Display calibration data
-vendor/etc/display/qdcm_calib_data_1.json
+vendor/etc/display/qdcm_calib_data_9.json
+
+# EVA firmware
+vendor/firmware/evass.b00
+vendor/firmware/evass.b01
+vendor/firmware/evass.b02
+vendor/firmware/evass.b03
+vendor/firmware/evass.b04
+vendor/firmware/evass.b05
+vendor/firmware/evass.b06
+vendor/firmware/evass.b07
+vendor/firmware/evass.b08
+vendor/firmware/evass.b09
+vendor/firmware/evass.b10
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+vendor/firmware/evass.b19
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
+
+# Graphics (Adreno firmware)
+vendor/firmware/a740_sqe.fw
+vendor/firmware/a740_zap.b00
+vendor/firmware/a740_zap.b01
+vendor/firmware/a740_zap.b02
+vendor/firmware/a740_zap.elf
+vendor/firmware/a740_zap.mbn
+vendor/firmware/a740_zap.mdt
+vendor/firmware/gmu_gen70200.bin
+
+# NFC configs
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp_RF.conf
 
 # Other maybe needed firmware
 vendor/firmware/L-cs35l45-dsp1-spk-cali.bin
@@ -612,7 +612,15 @@ vendor/firmware/cs40l25a_cal.bin
 vendor/firmware/cs40l25a_cal.wmfw
 
 # Touchscreen firmware
-vendor/firmware/touch_module_id_0x01.img
+vendor/firmware/touch_module_id_0x02.img
+
+# VPU firmware
+vendor/firmware/vpu20_4v.mbn
+vendor/firmware/vpu20_4v_unsigned.mbn
+vendor/firmware/vpu30_4v.mbn
+vendor/firmware/vpu30_4v_unsigned.mbn
+vendor/firmware/vpu33_4v.mbn
+vendor/firmware/vpu33_4v_unsigned.mbn
 
 # Wifi firmware
 vendor/etc/wifi/bdwlan.e17;SYMLINK=vendor/firmware/kiwi/bdwlan.e17
