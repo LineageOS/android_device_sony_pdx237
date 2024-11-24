@@ -26,8 +26,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 IS_PHONE := true
 
-PRODUCT_NAME := lineage_pdx234
-PRODUCT_DEVICE := pdx234
+PRODUCT_NAME := lineage_pdx237
+PRODUCT_DEVICE := pdx237
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := XQ-DQ72

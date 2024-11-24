@@ -1,1 +1,1 @@
-require board=kalama|pdx234|XQ-DQ72
+require board=kalama|pdx237|XQ-DQ72
