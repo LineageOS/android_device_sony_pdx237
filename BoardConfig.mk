@@ -22,6 +22,9 @@ DEVICE_PATH := device/sony/pdx237
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# Kernel
+TARGET_KERNEL_CONFIG += vendor/sony/pdx237.config
+
 # Props
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
