@@ -38,7 +38,7 @@ PRODUCT_SYSTEM_DEVICE := XQ-DE72
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="XQ-DE72-user 14 67.1.A.2.287 067001A002028700523109309 release-keys" \
-    BuildFingerprint=Sony/XQ-DE72/XQ-DE72:14/67.1.A.2.287/067001A002028700523109309:user/release-keys \
+    BuildDesc="XQ-DE72-user 14 67.1.A.2.307 067001A002030700523109309 release-keys" \
+    BuildFingerprint=Sony/XQ-DE72/XQ-DE72:14/67.1.A.2.307/067001A002030700523109309:user/release-keys \
     DeviceName=XQ-DE72 \
     DeviceProduct=XQ-DE72
