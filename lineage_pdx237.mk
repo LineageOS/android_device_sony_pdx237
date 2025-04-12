@@ -35,8 +35,8 @@ PRODUCT_MODEL := Xperia 5 V
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="XQ-DE72-user 15 67.2.A.2.41 067002A002004100523109309 release-keys" \
-    BuildFingerprint=Sony/XQ-DE72/XQ-DE72:15/67.2.A.2.41/067002A002004100523109309:user/release-keys \
+    BuildDesc="XQ-DE72-user 15 67.2.A.3.16 067002A003001600523109309 release-keys" \
+    BuildFingerprint=Sony/XQ-DE72/XQ-DE72:15/67.2.A.3.16/067002A003001600523109309:user/release-keys" \
     DeviceName=XQ-DE72 \
     DeviceProduct=XQ-DE72 \
     SystemDevice=XQ-DE72 \
