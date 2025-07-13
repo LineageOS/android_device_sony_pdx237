@@ -27,6 +27,9 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libarcsoft_hdr_adapter.so': blob_fixup()
         .add_needed('liblog.so')
         .add_needed('libcutils.so'),
+    'vendor/lib64/libcammw.so': blob_fixup()
+        .replace_needed('android.hardware.light-V1-ndk_platform.so', 'android.hardware.light-V1-ndk.so'),
+
 }  # fmt: skip
 
 module = ExtractUtilsModule(
