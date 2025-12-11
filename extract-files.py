@@ -29,6 +29,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcutils.so'),
     'vendor/lib64/libcammw.so': blob_fixup()
         .replace_needed('android.hardware.light-V1-ndk_platform.so', 'android.hardware.light-V1-ndk.so'),
+    'vendor/lib64/camx.provider-impl.so': blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
 
 }  # fmt: skip
 
