@@ -545,7 +545,7 @@ vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 
 # Display (SDM)
-vendor/etc/displayconfig/display_id_131.xml
+vendor/etc/displayconfig/display_id_131.xml:vendor/etc/displayconfig/display_port_131.xml
 
 # Display (HDR)
 vendor/etc/libhdr_somc.xml
