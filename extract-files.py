@@ -24,6 +24,16 @@ namespace_imports = [
 
 
 blob_fixups: blob_fixups_user_type = {
+    (
+        'odm/etc/customization/SO-53D/config.prop',
+        'odm/etc/customization/SOG12_jp_kdi/config.prop',
+        'odm/etc/customization/XQ-DE44/config.prop',
+        'odm/etc/customization/XQ-DE44_jp_rktn/config.prop',
+        'odm/etc/customization/XQ-DE54_EEA/config.prop',
+        'odm/etc/customization/XQ-DE72/config.prop',
+        'odm/etc/customization/XQ-DE72_CN/config.prop'
+    ): blob_fixup().
+        regex_replace('vendor', 'odm'),
     'vendor/lib64/libarcsoft_hdr_adapter.so': blob_fixup()
         .add_needed('liblog.so')
         .add_needed('libcutils.so'),

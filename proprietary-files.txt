@@ -627,3 +627,27 @@ vendor/etc/wifi/bdwlan.e30;SYMLINK=vendor/firmware/kiwi/bdwlan.e30
 vendor/etc/wifi/bdwlan.e31;SYMLINK=vendor/firmware/kiwi/bdwlan.e31
 vendor/etc/wifi/regdb.bin;SYMLINK=vendor/firmware/kiwi/regdb.bin
 vendor/etc/wifi/wifi_txpower.conf
+
+# SKU
+odm/etc/customization/SO-53D/config.prop
+odm/etc/customization/SOG12_jp_kdi/config.prop
+odm/etc/customization/XQ-DE44/config.prop
+odm/etc/customization/XQ-DE44_jp_rktn/config.prop
+odm/etc/customization/XQ-DE54_EEA/config.prop
+odm/etc/customization/XQ-DE72/config.prop
+odm/etc/customization/XQ-DE72_CN/config.prop
+odm/etc/customization/c000002/config.prop
+odm/etc/customization/c000018/config.prop
+odm/etc/customization/c000027/config.prop
+odm/etc/customization/c000032/config.prop
+odm/etc/customization/c001435/config.prop
+odm/etc/customization/c001492/config.prop
+odm/etc/customization/c001526/config.prop
+odm/etc/customization/c001707/config.prop
+odm/etc/customization/c001839/config.prop
+odm/etc/customization/c001884/config.prop
+odm/etc/customization/c999990/config.prop
+odm/etc/customization/c999996/config.prop
+odm/etc/customization/c999997/config.prop
+odm/etc/customization/c999998/config.prop
+odm/etc/customization/c999999/config.prop
